@@ -15,12 +15,4 @@
     url = "https://github.com/romkatv/powerlevel10k/archive/v1.15.0.tar.gz"
     exact = true
     stripComponents = 1
-[".oh-my-zsh/custom/plugins/zsh-fast-syntax-highlighting"]
-    type = "git-repo"
-    url = "https://github.com/zdharma-continuum/fast-syntax-highlighting.git"
-    refreshPeriod = "168h"
-[".oh-my-zsh/custom/plugins/zsh-autocomplete"]
-   type = "git-repo"
-    url = "https://github.com/marlonrichert/zsh-autocomplete.git"
-    refreshPeriod = "168h"
-    
+
