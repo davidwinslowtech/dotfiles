@@ -31,5 +31,9 @@
     url = "https://github.com/romkatv/powerlevel10k/archive/v1.15.0.tar.gz"
     exact = true
     stripComponents = 1
+[".oh-my-zsh/custom/themes/spaceship.zsh-theme"]
+    type = "git-repo"
+    url = "https://github.com/spaceship-prompt/spaceship-prompt.git"
+    refreshPeriod = "168h"
     
 
