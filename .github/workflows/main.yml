@@ -1,0 +1,24 @@
+on:
+  workflow_dispatch:
+name: test
+permissions:
+  id-token: write
+  contents: read
+  
+jobs:
+  my_job:
+    name: login to azure
+    runs-on: ubuntu-latest
+    steps:
+    - name: Azure Login
+      uses: Azure/login@v1.4.6
+      with:
+        client-id: 67ae7df9-90c7-48cc-a4f4-52baf6dda9aa
+        tenant-id: 1418c890-f1b2-4b1a-92eb-357824f67a78
+        # Azure subscriptionId
+        subscription-id: 09ace9c3-cfa3-4083-bb5c-e54f41d74a38
+        environment: test
+      
+  
+    
+ 
