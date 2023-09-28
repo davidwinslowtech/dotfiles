@@ -15,7 +15,7 @@ jobs:
       with:
         client-id: ${{ secrets.CLIENT_ID }}
         tenant-id: ${{ secrets.TENANT_ID }}
-        subscription-id: ${{ secrets.TENANT_ID }}
+        subscription-id: ${{ secrets.SUB_ID }}
         environment: test
     - name: list az accounts
       uses: Azure/cli@v1.0.8
