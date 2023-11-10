@@ -33,4 +33,3 @@ alias c="./bin/chezmoi"
 export NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ZscalerRootCertificate.pem
 export DOTNET_ROOT=$HOME/.dotnet
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
-eval "$(starship init zsh)"
